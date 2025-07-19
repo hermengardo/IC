@@ -1,0 +1,27 @@
+===============================================
+SESSÃO INICIADA: 2025-07-19 02:13:56
+===============================================
+SISTEMA OPERACIONAL: Microsoft Windows 10 Home 10.0.19045
+PROCESSADOR: AMD Ryzen 5 5500                               
+MEMÓRIA TOTAL: 15.89 GB
+MEMÓRIA DISPONÍVEL: 7.57 GB
+GPU: AMD Radeon RX590 GME
+NOME DO COMPUTADOR: DESKTOP-29RA3DI
+USUÁRIO: Hermengardo
+POWERSHELL VERSION: 7.5.2
+DIRETÓRIO INICIAL: C:\Users\Alexandre\Documents\obsidian_vaults\IC\Scripts\Construindo os conjuntos de treino\fubar
+===============================================
+
+2025-07-19 02:14:01 - clear
+2025-07-19 02:14:35 - pixi add python=3.9
+2025-07-19 02:14:56 - pixi project channel add conda-forge
+2025-07-19 02:15:01 - pixi project channel add bioconda
+2025-07-19 02:15:07 - pixi add seqkit
+2025-07-19 02:15:08 - clear
+2025-07-19 02:15:51 - nvim .\pixi.toml
+2025-07-19 02:16:15 - pixi install
+2025-07-19 02:16:36 - pixi run install-biotools
+2025-07-19 02:16:59 - mamba search seqkit -c bioconda
+2025-07-19 02:17:36 - mamba search hyphy -c bioconda
+2025-07-19 02:17:56 - mamba search hhsuite -c bioconda
+2025-07-19 02:17:58 - clear

@@ -1,0 +1,28 @@
+===============================================
+SESSÃO INICIADA: 2025-07-19 02:12:42
+===============================================
+SISTEMA OPERACIONAL: Microsoft Windows 10 Home 10.0.19045
+PROCESSADOR: AMD Ryzen 5 5500                               
+MEMÓRIA TOTAL: 15.89 GB
+MEMÓRIA DISPONÍVEL: 7.46 GB
+GPU: AMD Radeon RX590 GME
+NOME DO COMPUTADOR: DESKTOP-29RA3DI
+USUÁRIO: Hermengardo
+POWERSHELL VERSION: 7.5.2
+DIRETÓRIO INICIAL: C:\Users\Alexandre
+===============================================
+
+2025-07-19 02:12:47 - cd Documents
+2025-07-19 02:12:48 - clear
+2025-07-19 02:12:58 - cd '.\obsidian_vaults\IC\Scripts\Construindo os conjuntos de treino\'
+2025-07-19 02:12:58 - CLEAR
+2025-07-19 02:12:59 - dir
+2025-07-19 02:13:13 - ls -l
+2025-07-19 02:13:21 - dir
+2025-07-19 02:13:23 - clear
+2025-07-19 02:13:24 - dir
+2025-07-19 02:13:25 - clear
+2025-07-19 02:13:29 - mkdir fubar
+2025-07-19 02:13:37 - cd fubar
+2025-07-19 02:13:44 - pixi init .
+2025-07-19 02:13:47 - dir

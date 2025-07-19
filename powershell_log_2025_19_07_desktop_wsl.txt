@@ -1,0 +1,70 @@
+    1  clear
+    2  exit
+    3  pixi global install seqkit gotree hyphy
+    4  curl -fsSL https://pixi.sh/install.sh | bash
+    5  pixi global install seqkit gotree hyphy
+    6  pixi global install hhsuite seqkit gotree hyphy
+    7  Error:   × Couldn't install hhsuite
+    8    ╰─▶ Cannot solve the request because of: No candid
+    9  clear
+   10  pixi global install seqkit gotree hyphy
+   11  pixi global install hhsuite seqkit gotree hyphy
+   12  Error:   × Couldn't install hhsuite
+   13  conda --version
+   14  wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
+   15  bash Miniconda3-latest-Linux-x86_64.sh
+   16  source ~/.bashrc
+   17  conda install mamba -c conda-forge
+   18  conda init
+   19  pixi add python=3.9
+   20  pixi install seqkit
+   21  pixi add seqkit
+   22  pixi add channel:bioconda
+   23  pixi add-channel bioconda
+   24  pixi add seqkit
+   25  pixi add-channel bioconda
+   26  nvim pixi.toml 
+   27  pixi
+   28  clear
+   29  pixi
+   30  nano
+   31  nano pixi.toml 
+   32  clear
+   33  pixi add seqkit
+   34  pixi add hhsuite gotree hyphy
+   35  PREFIX="ENSGT00940000158077.1.Euteleostomi"
+   36  wcurl "https://selectome.org/euteleostomi/family/${PREFIX}.nt.fas" "https://selectome.org/euteleostomi/family/${PREFIX}.nwk"
+   37  curl "https://selectome.org/euteleostomi/family/${PREFIX}.nt.fas" "https://selectome.org/euteleostomi/family/${PREFIX}.nwk"
+   38  hhfilter -i ${PREFIX}.nt.fas -o /dev/stdout -id 99 -M 50 | reformat a3m fas /dev/stdin /dev/stdout -uc > ${PREFIX}.nt.filtered.fas
+   39  clear
+   40  hhfilter -i ${PREFIX}.nt.fas -o /dev/stdout -id 99 -M 50 | reformat a3m fas /dev/stdin /dev/stdout -uc > ${PREFIX}.nt.filtered.fas
+   41  clear
+   42  yay --version
+   43  clear
+   44  nvim run_fubar.sh
+   45  sudo snap install nvim
+   46  sudo snap install nvim --classic
+   47  nvim run_fubar.sh
+   48  clear
+   49  chmod +x run_fubar.sh
+   50  ./run_fubar.sh
+   51  nvim run_fubar.sh
+   52  ./run_fubar.sh
+   53  dir
+   54  which reformat
+   55  which reformat.pl
+   56  find $(pixi env list | grep 'Location' | awk '{print $2}') -name 'reformat*'
+   57  ./run_fubar.sh
+   58  dir
+   59  clear
+   60  nvim run_fubar.sh
+   61  clear
+   62  nvim run_fubar.sh
+   63  ./run_fubar.sh
+   64  dir
+   65  clear
+   66  mkdir pipeline
+   67  cleare
+   68  clear
+   69  history
+   70  history > powershell_log_2025_19_07_desktop_wsl.txt
