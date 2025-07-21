@@ -1,0 +1,28 @@
+===============================================
+SESSÃO INICIADA: 2025-07-19 22:16:36
+===============================================
+SISTEMA OPERACIONAL: Microsoft Windows 10 Home 10.0.19045
+PROCESSADOR: AMD Ryzen 5 5500                               
+MEMÓRIA TOTAL: 15.89 GB
+MEMÓRIA DISPONÍVEL: 9.29 GB
+GPU: AMD Radeon RX590 GME
+NOME DO COMPUTADOR: DESKTOP-29RA3DI
+USUÁRIO: Hermengardo
+POWERSHELL VERSION: 7.5.2
+DIRETÓRIO INICIAL: C:\Users\Alexandre
+===============================================
+
+2025-07-19 22:18:12 - clear
+2025-07-19 22:18:23 - cd H:\
+2025-07-19 22:18:24 - clear
+2025-07-19 22:18:24 - dir
+2025-07-19 22:18:26 - cd IC
+2025-07-19 22:18:27 - clear
+2025-07-19 22:18:30 - dir
+2025-07-19 22:23:55 - dir
+2025-07-19 22:24:01 - cd .\Scripts\fubar\
+2025-07-19 22:24:02 - clear
+2025-07-19 22:24:02 - dir
+2025-07-19 22:24:19 - unzip .\Selectome_v07_Euteleostomi-nwk.zip "nwk"
+2025-07-19 22:24:25 - clear
+2025-07-20 04:59:57 - wsl

@@ -1,0 +1,14 @@
+===============================================
+SESSÃO INICIADA: 2025-07-19 22:42:44
+===============================================
+SISTEMA OPERACIONAL: Microsoft Windows 10 Home 10.0.19045
+PROCESSADOR: AMD Ryzen 5 5500                               
+MEMÓRIA TOTAL: 15.89 GB
+MEMÓRIA DISPONÍVEL: 7.93 GB
+GPU: AMD Radeon RX590 GME
+NOME DO COMPUTADOR: DESKTOP-29RA3DI
+USUÁRIO: Hermengardo
+POWERSHELL VERSION: 7.5.2
+DIRETÓRIO INICIAL: C:\Users\Alexandre
+===============================================
+

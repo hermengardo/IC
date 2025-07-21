@@ -1,0 +1,147 @@
+    1  20/07/25 15:14:43 clear
+    2  20/07/25 15:14:43 exit
+    3  20/07/25 15:14:43 pixi global install seqkit gotree hyphy
+    4  20/07/25 15:14:43 curl -fsSL https://pixi.sh/install.sh | bash
+    5  20/07/25 15:14:43 pixi global install seqkit gotree hyphy
+    6  20/07/25 15:14:43 pixi global install hhsuite seqkit gotree hyphy
+    7  20/07/25 15:14:43 Error:   × Couldn't install hhsuite
+    8  20/07/25 15:14:43   ╰─▶ Cannot solve the request because of: No candid
+    9  20/07/25 15:14:43 clear
+   10  20/07/25 15:14:43 pixi global install seqkit gotree hyphy
+   11  20/07/25 15:14:43 pixi global install hhsuite seqkit gotree hyphy
+   12  20/07/25 15:14:43 Error:   × Couldn't install hhsuite
+   13  20/07/25 15:14:43 conda --version
+   14  20/07/25 15:14:43 wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
+   15  20/07/25 15:14:43 bash Miniconda3-latest-Linux-x86_64.sh
+   16  20/07/25 15:14:43 source ~/.bashrc
+   17  20/07/25 15:14:43 conda install mamba -c conda-forge
+   18  20/07/25 15:14:43 conda init
+   19  20/07/25 15:14:43 conda
+   20  20/07/25 15:14:43 ls ~/miniconda3/bin/conda
+   21  20/07/25 15:14:43 export PATH="~/miniconda3/bin:$PATH"
+   22  20/07/25 15:14:43 conda --version
+   23  20/07/25 15:14:43 cd Documents
+   24  20/07/25 15:14:43 clear
+   25  20/07/25 15:14:43 dir
+   26  20/07/25 15:14:43 cd obsidian_vaults/
+   27  20/07/25 15:14:43 clear
+   28  20/07/25 15:14:43 dir
+   29  20/07/25 15:14:43 cd IC
+   30  20/07/25 15:14:43 clear
+   31  20/07/25 15:14:43 dir
+   32  20/07/25 15:14:43 clear Scripts/
+   33  20/07/25 15:14:43 clear
+   34  20/07/25 15:14:43 dir
+   35  20/07/25 15:14:43 cd Scripts/
+   36  20/07/25 15:14:43 clear
+   37  20/07/25 15:14:43 conda create -n biotools python=3.9
+   38  20/07/25 15:14:43 pixi --version
+   39  20/07/25 15:14:43 clear
+   40  20/07/25 15:14:43 conda activate biotools
+   41  20/07/25 15:14:43 conda init
+   42  20/07/25 15:14:43 conda activate biotools
+   43  20/07/25 15:14:43 source ~/.bashrc
+   44  20/07/25 15:14:43 conda activate biotools
+   45  20/07/25 15:14:43 mamba install -c bioconda seqkit gotree hyphy hhsuite
+   46  20/07/25 15:14:43 conda install mamba -c conda-forge -y
+   47  20/07/25 15:14:43 conda install -c bioconda seqkit gotree hyphy hhsuite -y
+   48  20/07/25 15:14:43 mkdir fubar
+   49  20/07/25 15:14:43 cd fubar
+   50  20/07/25 15:14:43 pixi init .
+   51  20/07/25 15:14:43 clear
+   52  20/07/25 15:14:43 pixi shell
+   53  19/07/25 15:39:26 mamba --version
+   54  19/07/25 15:39:35 clear
+   55  20/07/25 15:14:43 clear
+   56  20/07/25 15:14:43 curl -O https://selectome.org/ftp/Selectome_v07/Euteleostomi98/trees/Selectome_v07_Euteleostomi-Trees_Newick.zip
+   57  20/07/25 15:14:43 history
+   58  20/07/25 15:14:43 clear
+   59  19/07/25 13:45:37 HISTTIMEFORMAT="%d/%m/%y %T
+   60  20/07/25 15:14:43 "
+   61  19/07/25 13:45:52 HISTTIMEFORMAT="%d/%m/%y %T"
+   62  19/07/25 13:45:56 HISTTIMEFORMAT="%d/%m/%y %T "
+   63  19/07/25 13:45:57 clear
+   64  19/07/25 13:46:02 echo 'HISTTIMEFORMAT="%d/%m/%y %T "' >> ~/.bashrc
+   65  19/07/25 13:46:08 history
+   66  19/07/25 13:46:11 clear
+   67  19/07/25 22:42:59 cd Documents
+   68  19/07/25 22:43:00 clear
+   69  19/07/25 22:43:02 dir
+   70  19/07/25 22:43:02 cd ..
+   71  19/07/25 22:43:06 cd ~
+   72  19/07/25 22:43:09 cd H
+   73  19/07/25 22:43:13 dir
+   74  19/07/25 22:43:20 cd ..\..\..dir
+   75  19/07/25 22:43:28 cd H:cd H:\
+   76  19/07/25 22:43:35 cd H:/
+   77  19/07/25 22:44:02 cd /mnt/h
+   78  19/07/25 22:44:04 clear
+   79  19/07/25 22:44:04 dir
+   80  19/07/25 22:44:12 cd IC
+   81  19/07/25 22:44:13 CLEAR
+   82  19/07/25 22:44:18 clear
+   83  19/07/25 22:44:23 dir
+   84  19/07/25 22:44:28 cd Scripts
+   85  19/07/25 22:44:29 clear
+   86  19/07/25 22:44:29 dir
+   87  19/07/25 22:44:31 cd fubar
+   88  19/07/25 22:44:32 clear
+   89  19/07/25 22:44:30 dir
+   90  19/07/25 22:44:31 clear
+   91  19/07/25 22:44:33 dir
+   92  19/07/25 22:45:02 ls -l
+   93  19/07/25 22:45:05 pixi shell
+   94  19/07/25 23:27:08 clear
+   95  19/07/25 23:27:07 cls
+   96  19/07/25 23:35:51 clear
+   97  19/07/25 23:35:54 #!/bin/bash
+   98  19/07/25 23:35:54 # Força gravar os comandos recentes no histórico
+   99  19/07/25 23:35:54 history -a
+  100  19/07/25 23:35:54 # Garante o formato com data/hora na saída
+  101  19/07/25 23:35:54 export HISTTIMEFORMAT="%d/%m/%y %T "
+  102  19/07/25 23:35:54 # Salva o histórico formatado num .txt com data e hora no nome
+  103  19/07/25 23:35:54 history | tee "/mnt/h/IC_LOGS/desktop/wsl/wsl_desktop_$(date '+%Y-%m-%d_%H-%M-%S').txt" > /dev/null
+  104  19/07/25 23:36:15 sudo nvim save.
+  105  19/07/25 23:36:21 sudo nvim save.sh
+  106  19/07/25 23:36:53 chmod +x save.sh
+  107  19/07/25 23:36:58 sudo chmod +x save.sh
+  108  19/07/25 23:36:59 clear
+  109  19/07/25 23:36:59 save.sh
+  110  19/07/25 23:37:23 nvim save.sh
+  111  19/07/25 23:40:48 del save.sh
+  112  19/07/25 23:40:54 rm save.sh
+  113  19/07/25 23:41:01 sudo rm save.sh
+  114  19/07/25 23:41:02 clear
+  115  19/07/25 23:41:03 dir
+  116  19/07/25 23:41:07 nvim save.sh
+  117  19/07/25 23:41:25 sudo nvim save.sh
+  118  19/07/25 23:41:41 sudo chmod +x save.sh
+  119  19/07/25 23:41:47 save.sh
+  120  19/07/25 23:42:05 history
+  121  19/07/25 23:44:03 sudo save.sh
+  122  19/07/25 23:44:14 sudo nvim save.sh
+  123  19/07/25 23:45:06 sudo chmod +x save.sh
+  124  19/07/25 23:45:08 save.sh
+  125  19/07/25 23:45:18 sudo nvim save.sh
+  126  19/07/25 23:45:36 save.sh
+  127  19/07/25 23:45:42 sudo chmod +x save.sh
+  128  19/07/25 23:45:46 save.sh
+  129  19/07/25 23:46:09 sudo nvim save.sh
+  130  19/07/25 23:46:24 save.sh
+  131  20/07/25 04:22:38 clear
+  132  20/07/25 04:22:42 exit
+  133  20/07/25 00:14:43 pixi shell
+  134  20/07/25 04:22:49 exit
+  135  19/07/25 22:28:04 clear
+  136  19/07/25 22:28:08 pixi shell
+  137  19/07/25 23:48:26 pixi add jupyterlab
+  138  19/07/25 23:50:10 pixi run jupyter lab
+  139  20/07/25 04:59:52 history > "/mnt/h/IC_LOGS/desktop/wsl/wsl_desktop_$(date '+%Y-%m-%d_%H-%M-%S').txt"
+  140  20/07/25 15:14:46 dir
+  141  20/07/25 15:14:50 jupyter-lab
+  142  20/07/25 17:21:30 dir
+  143  20/07/25 17:21:37 nvim pixi.toml 
+  144  20/07/25 17:22:15 cd ..
+  145  20/07/25 17:22:17 dir
+  146  20/07/25 17:22:19 clear
+  147  20/07/25 17:23:04 history > "/mnt/h/IC_LOGS/desktop/wsl/wsl_desktop_$(date '+%Y-%m-%d_%H-%M-%S').txt"
