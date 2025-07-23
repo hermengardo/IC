@@ -1,0 +1,17 @@
+===============================================
+SESSÃO INICIADA: 2025-07-21 18:02:22
+===============================================
+SISTEMA OPERACIONAL: Microsoft Windows 10 Home 10.0.19045
+PROCESSADOR: AMD Ryzen 5 5500                               
+MEMÓRIA TOTAL: 15.89 GB
+MEMÓRIA DISPONÍVEL: 9.84 GB
+GPU: AMD Radeon RX590 GME
+NOME DO COMPUTADOR: DESKTOP-29RA3DI
+USUÁRIO: Hermengardo
+POWERSHELL VERSION: 7.5.2
+DIRETÓRIO INICIAL: C:\Program Files\WindowsApps\Microsoft.PowerShell_7.5.2.0_x64__8wekyb3d8bbwe
+===============================================
+
+2025-07-21 18:02:44 - dir
+2025-07-21 18:02:45 - clear
+2025-07-21 18:02:47 - dir

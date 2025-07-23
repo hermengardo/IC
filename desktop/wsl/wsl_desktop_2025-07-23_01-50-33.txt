@@ -1,0 +1,130 @@
+    1  20/07/25 20:12:43 history -w
+    2  20/07/25 17:49:24 cd /mnt/h
+    3  20/07/25 17:49:25 clear
+    4  20/07/25 17:49:25 cd IC
+    5  20/07/25 17:49:29 cd Scripts
+    6  20/07/25 17:49:30 clear
+    7  20/07/25 17:49:30 dir
+    8  20/07/25 17:49:32 cd 0_db/
+    9  20/07/25 17:49:33 clear
+   10  20/07/25 17:49:38 ls -l
+   11  20/07/25 17:49:41 pixi init
+   12  20/07/25 17:50:04 pixi add channel bioconda
+   13  20/07/25 17:51:08 nvim pixi.toml 
+   14  20/07/25 17:51:36 pixi shell
+   15  20/07/25 20:12:43 history -w
+   16  20/07/25 20:12:44 clear
+   17  20/07/25 20:12:46 history
+   18  20/07/25 19:47:34 pixi add numpy
+   19  20/07/25 19:50:50 pixi add needletail
+   20  20/07/25 19:59:59 python process_fubar_output.py
+   21  20/07/25 20:00:41 cd pipeline/
+   22  20/07/25 20:00:42 clear
+   23  20/07/25 20:00:55 python process_fubar_output.py
+   24  20/07/25 20:28:04 git add .
+   25  20/07/25 20:28:19 git commit -m "atualizações nos scripts"
+   26  20/07/25 20:28:30 exit()
+   27  20/07/25 19:47:24 pixi shell
+   28  21/07/25 18:49:45 clear
+   29  21/07/25 18:49:45 dir
+   30  21/07/25 18:49:46 cls
+   31  21/07/25 18:50:43 dir
+   32  21/07/25 18:50:45 ls -l
+   33  21/07/25 18:50:46 clear
+   34  21/07/25 18:50:48 cls
+   35  21/07/25 18:55:17 dir
+   36  21/07/25 18:55:25 chmod +x run_fubar.sh 
+   37  21/07/25 18:55:34 run_fubar.sh
+   38  21/07/25 18:55:42 bash run_fubar.sh
+   39  21/07/25 18:57:01 clear
+   40  21/07/25 18:57:06 pixi install
+   41  21/07/25 18:57:12 pixi add hhsuite
+   42  21/07/25 18:57:39 pixi add seqkit
+   43  21/07/25 18:57:48 pixi add gotree
+   44  21/07/25 18:57:55 pixi add hyphy
+   45  21/07/25 18:57:59 clear
+   46  21/07/25 18:58:09 bash run_fubar.sh
+   47  21/07/25 18:59:19 hyphy fubar
+   48  21/07/25 18:59:38 pixi remove
+   49  21/07/25 19:00:05 rm -rf .pixi/envs
+   50  21/07/25 19:00:25 pixi install
+   51  21/07/25 19:06:15 python --version
+   52  21/07/25 19:06:26 bash run_fubar.sh
+   53  21/07/25 19:07:52 pixi search rush
+   54  21/07/25 19:08:09 pixi add rush
+   55  21/07/25 19:09:12 seq 1 3
+   56  21/07/25 19:09:28 rush echo(seq 1 3)
+   57  21/07/25 19:09:34 rush seq 1 3
+   58  21/07/25 19:09:49 seq 1 3 | rush
+   59  21/07/25 19:09:56 seq 1 3 | rush 'echo {}'
+   60  21/07/25 19:10:04 seq 1 3 | rush echo {}
+   61  21/07/25 19:12:35 clear
+   62  21/07/25 19:13:03 rush -j 4 bash run_fubar.sh
+   63  21/07/25 19:13:14 rush -j 4 'bash run_fubar.sh'
+   64  21/07/25 19:13:21 dir
+   65  21/07/25 19:14:04 nvim run_fubar.sh 
+   66  21/07/25 19:14:38 nvim
+   67  21/07/25 19:14:44 nvim run.sh
+   68  21/07/25 19:18:06 dir
+   69  21/07/25 19:18:16 run.sh proc.tsv
+   70  21/07/25 19:18:24 chmod +x run.sh
+   71  21/07/25 19:18:27 run.sh proc.tsv
+   72  21/07/25 19:19:16 read_tsv proc.tsv
+   73  21/07/25 19:19:44 nvim run.sh
+   74  21/07/25 19:20:45 chmod +x run.sh
+   75  21/07/25 19:21:05 ./run.sh proc.tsv
+   76  21/07/25 19:21:24 nvim run.sh
+   77  21/07/25 19:21:45 ./run.sh proc.tsv saida.txt
+   78  21/07/25 19:22:02 ./run.sh ./proc.tsv ./saida.txt
+   79  21/07/25 19:22:34 dir
+   80  21/07/25 19:23:00 run.sh proc.tsv saida.txt
+   81  21/07/25 19:23:05 bash run.sh proc.tsv saida.txt
+   82  21/07/25 19:23:24 cat proc.tsv > saida.txt
+   83  21/07/25 19:23:46 nvim proc.tsv 
+   84  21/07/25 19:23:55 nvim run.sh
+   85  21/07/25 19:24:20 chmod +x run.sh
+   86  21/07/25 19:24:27 ./run.sh ./proc.tsv ./saida.txt
+   87  21/07/25 19:24:46 ls -l proc.tsv
+   88  21/07/25 19:24:52 head proc.tsv
+   89  21/07/25 19:25:38 nvim run.shj
+   90  21/07/25 19:25:42 nvim run.sh
+   91  21/07/25 19:26:00 chmod +x run.sh
+   92  21/07/25 19:26:16 ./run.sh proc.tsv saida.txt
+   93  21/07/25 19:26:43 nvim run.sh
+   94  21/07/25 19:30:05 ./run.sh proc.tsv
+   95  21/07/25 19:30:07 nvim run.sh
+   96  21/07/25 21:06:37 pixi run jupyter-lab
+   97  22/07/25 00:02:23 pixi shell
+   98  22/07/25 00:02:30 bash run.sh
+   99  22/07/25 02:05:08 pixi shell
+  100  22/07/25 02:27:16 clear
+  101  22/07/25 02:27:33 nvim run.sh 
+  102  22/07/25 02:27:48 bash run.sh
+  103  22/07/25 02:30:25 clear
+  104  22/07/25 17:24:16 pixi shell
+  105  22/07/25 17:25:18 bash run.sh
+  106  22/07/25 21:31:04 clear
+  107  22/07/25 21:31:07 dir
+  108  22/07/25 21:31:19 vimm process_fubar_output.py
+  109  22/07/25 21:31:22 vim process_fubar_output.py 
+  110  23/07/25 00:50:27 clear
+  111  23/07/25 00:50:28 dir
+  112  23/07/25 00:50:37 pixi add polars
+  113  23/07/25 01:40:24 pixi run jupyter-lab
+  114  23/07/25 01:45:07 clear
+  115  23/07/25 01:45:28 history history > "/mnt/h/IC_LOGS/desktop/wsl/wsl_desktop_$(date '+%Y-%m-%d_%H-%M-%S').txt"
+  116  23/07/25 01:45:34 history > "/mnt/h/IC_LOGS/desktop/wsl/wsl_desktop_$(date '+%Y-%m-%d_%H-%M-%S').txt"
+  117  23/07/25 01:46:27 git add .
+  118  23/07/25 01:46:47 git reset
+  119  23/07/25 01:47:32 git add .
+  120  23/07/25 01:47:44 git reset
+  121  23/07/25 01:48:04 git add .
+  122  23/07/25 01:48:26 git reset
+  123  23/07/25 01:48:29 git add .
+  124  23/07/25 01:48:41 git commit -m "Primeiros 1000 processados"
+  125  23/07/25 01:48:58 git config --global user.email "josesoaresoliveira@usp.br"
+  126  23/07/25 01:49:14 git config --global user.name "hermengardo"
+  127  23/07/25 01:49:17 git commit -m "Primeiros 1000 processados"
+  128  23/07/25 01:49:21 git push
+  129  23/07/25 01:50:10 gh auth login
+  130  23/07/25 01:50:33 history > "/mnt/h/IC_LOGS/desktop/wsl/wsl_desktop_$(date '+%Y-%m-%d_%H-%M-%S').txt"
