@@ -1,5 +1,0 @@
-    1  19/07/25 13:58:10 clear
-    2  19/07/25 13:58:41 history > "wsl_desktop_$(date '+%Y-%m-%d_%H-%M-%S').txt"
-    3  19/07/25 13:58:49 cd Documents
-    4  19/07/25 13:59:02 history > "C:\Users\Alexandre\Documents\logs_IC\wsl_desktop_$(date '+%Y-%m-%d_%H-%M-%S').txt"
-    5  19/07/25 14:00:10 history > "/mnt/c/Users/Alexandre/Documents/logs_IC/wsl_desktop_$(date '+%Y-%m-%d_%H-%M-%S').txt"
