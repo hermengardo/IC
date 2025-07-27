@@ -47,4 +47,8 @@ onde $\varepsilon \in \mathbb{R}$ representa o erro da estimativa.
     └── .sh
 ```
 
+## Referências
+- JEFFARES, Daniel C. et al. A Beginners Guide to Estimating the Non-synonymous to Synonymous Rate Ratio of all Protein-Coding Genes in a Genome. In: JEFFARES, Daniel C. Methods in Molecular Biology. New York, NY: Springer New York, 2015. cap. 4, p. 65-90. ISBN 978-1-4939-1437-1 978-1-4939-1438-8. Disponível em: https://link.springer.com/10.1007/978-1-4939-1438-8_4. Acesso em: 15 jul. 2025.
+- MARQUET, Céline et al. Embeddings from protein language models predict conservation and variant effects. Human Genetics, [s. l.], v. 141, ed. 10, p. 1629-1647, 2022. DOI 10.1007/s00439-021-02411-y. Disponível em: https://link.springer.com/10.1007/s00439-021-02411-y. Acesso em: 15 jul. 2025
+
   
