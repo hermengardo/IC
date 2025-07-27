@@ -35,13 +35,15 @@ onde $\varepsilon \in \mathbb{R}$ representa o erro da estimativa.
 .
 ├── README.md # Descrição geral do repositório
 ├── Setups/
-│   └── config.txt # Informações relativas aos computadores utilizados
+│   ├── config.txt # Informações sobre os computadores utilizados
+│   └── 0_db.toml # Ambiente pixi (ver relatório_27_07_2025)
 ├── Relatórios/
-│   └── relatórios_%date.md # Relatórios de progresso (YYYY-MM-DD.md)
+│   └── relatório_27_07_2025.md # Seleção de banco de dados e scripts de processamento
 └── Scripts/
-    ├── .py
-    ├── .ipynb
-    └── .sh
+    └── 0_db (ver relatório_27_07_2025)/
+        ├── run.sh # Estima os parâmetros $\alpha$ e $\beta$
+        ├── mv_processed_done.sh # Move arquivos já processados para o diretório de arquivos prontos 
+        └── process_fubar_output # Processa os arquivos .json.gz gerados por `run.sh` 
 ```
 
 ## Referências

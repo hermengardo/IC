@@ -1,0 +1,20 @@
+[workspace]
+channels = ["conda-forge", "bioconda"]
+name = "0_db"
+platforms = ["linux-64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+python = "3.9.*"
+hhsuite = ">=3.3.0,<4"
+seqkit = ">=2.10.0,<3"
+gotree = ">=0.5.0,<0.6"
+hyphy = ">=2.5.75,<3"
+tqdm = ">=4.67.1,<5"
+jupyterlab = ">=4.4.5,<5"
+numpy = ">=2.0.2,<3"
+needletail = ">=0.7.0,<0.8"
+rush = ">=0.7.0,<0.8"
+polars = ">=1.31.0,<2"
