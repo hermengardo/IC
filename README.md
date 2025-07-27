@@ -24,6 +24,15 @@ $$
 
 onde $\varepsilon \in \mathbb{R}$ representa o erro da estimativa.
 
+## Atividades sendo realizadas
+- [ ] Construção da base de dados
+  - [x] Selecionar o banco de dados 
+  - [x] Escrever os scripts para processamento das sequências 
+  - [ ] Processar os dados
+  - [ ] Avaliar a qualidade dos dados processados
+- [ ] Extração dos embeddings
+    - [ ] Escrever os scripts
+
 ## Arvore de diretórios
 ```
 .
