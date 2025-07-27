@@ -21,7 +21,7 @@ $$
 
 onde $\varepsilon \in \mathbb{R}$ representa o erro da estimativa.
 
-## Atividades sendo realizadas
+## Para fazer
 - [ ] Construção da base de dados
   - [x] Selecionar o banco de dados 
   - [x] Escrever os scripts para processamento das sequências 
