@@ -1,5 +1,6 @@
 #!/bin/bash
 
+# Gera as estimativas de alpha e beta
 process_file() {
     local fasta="$1"
     local fname=$(basename "$fasta")
