@@ -19,7 +19,7 @@ $$
 f(\phi^*(K)) = \left(\frac{d_N}{d_S}\right)_K + \varepsilon
 $$
 
-onde $\varepsilon \in \mathbb{R}$ representa o erro da estimativa.
+  - onde $\varepsilon \in \mathbb{R}$ representa o erro da estimativa.
 
 ## Para fazer
 - [ ] Construir a base de dados
