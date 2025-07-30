@@ -28,6 +28,9 @@ $$
   - [ ] Processar os dados
   - [ ] Avaliar a qualidade dos dados processados
 - [ ] Extração dos embeddings
+    - [x] Escolher o modelo
+    - [ ] Verificar como o modelo foi treinado
+    - [ ] Verificar se o embedding é calculado globalmente ou sequencialmente.
     - [ ] Escrever os scripts
 
 ## Arvore de diretórios
