@@ -40,12 +40,11 @@ $$
 ├── Ambientes/
 │   ├── config.txt                           # Informações sobre os computadores utilizados
 │   └── 0_db.toml                            # Ambiente Pixi para a fase de construção da base de dados
-├── Diários/
-│   └── %date.md                             # Anotações sobre o que foi feito durante o dia
+├── Diários/                                 # Anotações sobre o que foi feito durante o dia               
 ├── Relatórios/
-│   └── relatório_28_07_2025.md              # Seleção de banco de dados e scripts de processamento
+│   └── relatório_28_07_2025.md              # Rel. de seleção de banco de dados e scripts de processamento
 └── Scripts/
-    └── 0_db/                                # Ver relatório_28_07_2025
+    └── 0_db/                                # Seleção de banco de dados e scripts de processamento
         ├── run.sh                           # Estima os parâmetros α e β
         ├── mv_processed_done.sh             # Move arquivos já processados para o diretório de prontos
         └── process_fubar_output             # Processa os arquivos .json.gz gerados por `run.sh`
