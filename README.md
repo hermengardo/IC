@@ -37,9 +37,11 @@ $$
 ```
 .
 ├── README.md # Descrição geral do repositório
-├── Setups/
+├── Ambientes/
 │   ├── config.txt # Informações sobre os computadores utilizados
 │   └── 0_db.toml # Ambiente pixi (ver relatório_28_07_2025)
+├── Diários/
+|   └── %date.md # Anotações sobre o que foi feito durante o dia
 ├── Relatórios/
 │   └── relatório_28_07_2025.md # Seleção de banco de dados e scripts de processamento
 └── Scripts/
