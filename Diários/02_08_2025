@@ -1,0 +1,16 @@
+# Diário (31/07/2025)
+**Hoje:** 
+1. Jupyter-lab rodando no servidor
+2. Ambiente pronto
+3. Evo2 instalado
+```shell
+pixi add --pypi evo2
+```
+3. Script de teste pronto para rodar.
+
+**Amanhã:** 
+- [x] Identificar e resolver os erros.
+- [x] Detalhar erro e solução no diário.
+- [x] Terminar de configurar o ambiente.
+- [ ] Escrever o script para a vetorização dos nucleotídeos.
+- [ ] Continuar a processar os dados.
