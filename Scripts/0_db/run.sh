@@ -1,6 +1,5 @@
 #!/bin/bash
 
-# Gera as estimativas de alpha e beta
 process_file() {
     local fasta="$1"
     local fname=$(basename "$fasta")
@@ -19,14 +18,10 @@ process_file() {
             --alignment "./nt_tree_filtered/${prefix}.nt.filtered.fas" \
             --tree "./nwk_filtered/${prefix}.filtered.nwk" \
             --output "./output/${prefix}.filtered.fubar.json" \
-            > /dev/null 2>&1
-        if [[ -f "errors.log" ]]; then
-            cat errors.log >> hyphy_errors.log
-            rm errors.log
-        fi
+            > ./err/hyphy_errors_$prefix.log.txt 2>&1
         rm "./nt_tree_filtered/${prefix}.nt.filtered.fas.FUBAR.cache" 2>/dev/null
     else
-        echo "${prefix}.nt" >> missing_trees.txt
+        echo "${prefix}.nt" >> .err/missing_trees.txt
     fi
 }
 
