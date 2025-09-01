@@ -1,0 +1,38 @@
+
+Analysis Description
+--------------------
+Perform a Fast Unbiased AppRoximate Bayesian (FUBAR) analysis of a
+coding sequence alignment to determine whether some sites have been
+subject to pervasive purifying or diversifying selection. v2.1
+introduces two more methods for estimating the posterior distribution of
+grid weights: collapsed Gibbs MCMC (faster) and 0-th order Variation
+Bayes approximation (fastest). Please note that a FUBAR analysis
+generates a cache and a results JSON file in the same directory as
+directory as the original alignment. HyPhy needs to have write
+privileges to this directory. For example if the original file is in
+/home/sergei/FUBAR/data/pol.nex then at the end of a FUBAR run, there
+will also exist FUBAR-generated files
+/home/sergei/FUBAR/data/pol.nex.FUBAR.json,
+/home/sergei/FUBAR/data/pol.nex.fubrar.cache. They also provide
+checkpointing so that a partially completed analysis can be restarted.
+
+- __Requirements__: in-frame codon alignment (possibly partitioned) and a phylogenetic tree
+(one per partition)
+
+- __Citation__: FUBAR: a fast, unconstrained bayesian approximation for inferring
+selection (2013), Mol Biol Evol. 30(5):1196-205
+
+- __Written by__: Sergei L Kosakovsky Pond
+
+- __Contact Information__: spond@temple.edu
+
+- __Analysis Version__: 2.2
+
+
+>code => Universal
+*** PROBLEM WITH SEQUENCE ' ENSAMEP00000021357' (249 nt long, stop codons shown in capital letters)
+
+atgccacaattagacacatccacaTGAtttattacaatcctatccatgatcttaacactatttattatatttcagttaaaagtctcaaaacacaactatcctgagttt------------------------------------------cctgaattaaaaacaaccccactatcaaaaaaacctatgcctTGAgaagaaaaaTGAacgaaaatctgttcgcctcttttacta---ccccaaTGA---
+## ASSERTION FAILED
+The input alignment must have the number of sites that is divisible by 3 and must not contain stop codons
+Check errors.log for execution error details.

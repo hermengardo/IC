@@ -1,0 +1,100 @@
+
+Analysis Description
+--------------------
+Perform a Fast Unbiased AppRoximate Bayesian (FUBAR) analysis of a
+coding sequence alignment to determine whether some sites have been
+subject to pervasive purifying or diversifying selection. v2.1
+introduces two more methods for estimating the posterior distribution of
+grid weights: collapsed Gibbs MCMC (faster) and 0-th order Variation
+Bayes approximation (fastest). Please note that a FUBAR analysis
+generates a cache and a results JSON file in the same directory as
+directory as the original alignment. HyPhy needs to have write
+privileges to this directory. For example if the original file is in
+/home/sergei/FUBAR/data/pol.nex then at the end of a FUBAR run, there
+will also exist FUBAR-generated files
+/home/sergei/FUBAR/data/pol.nex.FUBAR.json,
+/home/sergei/FUBAR/data/pol.nex.fubrar.cache. They also provide
+checkpointing so that a partially completed analysis can be restarted.
+
+- __Requirements__: in-frame codon alignment (possibly partitioned) and a phylogenetic tree
+(one per partition)
+
+- __Citation__: FUBAR: a fast, unconstrained bayesian approximation for inferring
+selection (2013), Mol Biol Evol. 30(5):1196-205
+
+- __Written by__: Sergei L Kosakovsky Pond
+
+- __Contact Information__: spond@temple.edu
+
+- __Analysis Version__: 2.2
+
+
+>code => Universal
+Error:
+Empty File Encountered By ReadDataSet.
+
+Function call stack
+1 :  [namespace = OvCAHqpd] DataSet  ^dataset_name = ReadDataFile(PROMPT_FOR_FILE);
+
+	Keyword arguments:
+		{
+		 "output":"./output/ENSGT00970000193624.Euteleostomi.001.filtered.fubar.json",
+		 "tree":"./nwk_filtered/ENSGT00970000193624.Euteleostomi.001.filtered.nwk"
+		}
+-------
+2 :  [namespace = qBFAmNGj] code_info=alignments.LoadGeneticCode(None);
+
+	Keyword arguments:
+		{
+		 "output":"./output/ENSGT00970000193624.Euteleostomi.001.filtered.fubar.json",
+		 "tree":"./nwk_filtered/ENSGT00970000193624.Euteleostomi.001.filtered.nwk"
+		}
+-------
+3 :  [namespace = NCxWKwsu] return alignments.ReadCodonDataSetFromPath(dataset_name,None);
+
+	Keyword arguments:
+		{
+		 "output":"./output/ENSGT00970000193624.Euteleostomi.001.filtered.fubar.json",
+		 "tree":"./nwk_filtered/ENSGT00970000193624.Euteleostomi.001.filtered.nwk"
+		}
+-------
+4 :  return alignments.LoadCodonDataFile(dataset_name,datafilter_name,alignments.ReadCodonDataSet(dataset_name));
+
+	Keyword arguments:
+		{
+		 "output":"./output/ENSGT00970000193624.Euteleostomi.001.filtered.fubar.json",
+		 "tree":"./nwk_filtered/ENSGT00970000193624.Euteleostomi.001.filtered.nwk"
+		}
+-------
+5 :  [namespace = fubar] codon_data_info=alignments.PromptForGeneticCodeAndAlignment(datasets,prefix+".codon_filter");
+
+	Keyword arguments:
+		{
+		 "output":"./output/ENSGT00970000193624.Euteleostomi.001.filtered.fubar.json",
+		 "tree":"./nwk_filtered/ENSGT00970000193624.Euteleostomi.001.filtered.nwk"
+		}
+-------
+6 :  [namespace = fubar] load_file({utility.getGlobalValue("terms.prefix"):"fubar",utility.getGlobalValue("terms.settings"):{utility.getGlobalValue("terms.settings.branch_selector"):"selection.io.SelectAllBranches"}});
+
+	Keyword arguments:
+		{
+		 "output":"./output/ENSGT00970000193624.Euteleostomi.001.filtered.fubar.json",
+		 "tree":"./nwk_filtered/ENSGT00970000193624.Euteleostomi.001.filtered.nwk"
+		}
+-------
+7 :  namespace 
+
+Step 0.LoadFunctionLibrary("modules/shared-load-file.bf", /mnt/h/Database_IC/0_db/.pixi/envs/default/share/hyphy/TemplateBatchFiles/SelectionAnalyses/);
+
+Step 1.LoadFunctionLibrary("modules/grid_compute.ibf", /mnt/h/Database_IC/0_db/.pixi/envs/default/share/hyphy/TemplateBatchFiles/SelectionAnalyses/);
+
+Step 2.load_file({utility.getGlobalValue("terms.prefix"):"fubar",utility.getGlobalValue("terms.settings"):{utility.getGlobalValue("terms.settings.branch_selector"):"selection.io.SelectAllBranches"}});;
+
+	Keyword arguments:
+		{
+		 "output":"./output/ENSGT00970000193624.Euteleostomi.001.filtered.fubar.json",
+		 "tree":"./nwk_filtered/ENSGT00970000193624.Euteleostomi.001.filtered.nwk"
+		}
+-------
+
+Check errors.log for execution error details.
