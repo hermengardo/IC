@@ -146,13 +146,6 @@ def process(dataset):
 
 def main():
     dataset = load_dataset("parquet", data_dir="processed_data")
-    dataset["train"] =(
-         dataset["train"]
-             .shuffle(seed=7182)
-             .select(
-                 range(3090)
-             )
-    )
     process(dataset["train"])
 
 if __name__ == "__main__":
