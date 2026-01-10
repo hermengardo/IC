@@ -69,8 +69,12 @@ def partition(path,
             )
 
     
-    assert set(train).intersection(set(test)).intersection(set(val)) == set()
-
+    assert not (
+        set(train) & set(test) or
+        set(train) & set(val) or
+        set(test)  & set(val)
+    )
+                  
     assert (
         len(train) == len(set(train)) and
         len(test) == len(set(test)) and
